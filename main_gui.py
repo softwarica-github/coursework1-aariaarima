@@ -1,7 +1,7 @@
 import PySimpleGUI as Psg
 import main as scapy_main
 
-Psg.theme('SandyBeach')
+Psg.theme('TealMono')
 Psg.set_options(font='Courier 11', button_element_size=(10, 2))
 HEADING_LIST = ["Source", "Destination", "Source Port",
 					"Destination Port", "Payload", "Actual Payload"]
